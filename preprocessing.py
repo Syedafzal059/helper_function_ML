@@ -21,7 +21,7 @@ def augmentation_img(input_dir="path\input",
     fill_mode='nearest',
     num_of_copies=4):
   
-    '''
+    """
     input_dir: path of input folder, 
     output_dir: path of output(augmnted) folder, 
     rotation_range=20,
@@ -33,7 +33,7 @@ def augmentation_img(input_dir="path\input",
     fill_mode='nearest',
     num_of_copies):
 
-    '''
+    """
     import os
     import shutil
     import random
@@ -77,16 +77,25 @@ def augmentation_img(input_dir="path\input",
 
 
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> a1a9d3d0ddb09f5f96e0edd13a68e0871cf5e377
 def split_test_train_image(
     input_dir = '/path/to/input',
     train_dir = '/path/to/train_data_set',
     val_dir = '/path/to/test_data_set',
     train_pct = 0.8):
+<<<<<<< HEAD
+    """
+        Function can split the image data into test and train data set in given ratio
+    """
+=======
 '''
 Function can split the image data into test and train data set in given ratio
 '''
+>>>>>>> a1a9d3d0ddb09f5f96e0edd13a68e0871cf5e377
     import os
     import shutil
     import random
@@ -166,4 +175,8 @@ def load_and_prep_image(filename, img_shape=256, scale=True):
     # Rescale the image (get all values between 0 and 1)
     return img/255.
   else:
+<<<<<<< HEAD
     return img
+=======
+    return img
+>>>>>>> a1a9d3d0ddb09f5f96e0edd13a68e0871cf5e377
