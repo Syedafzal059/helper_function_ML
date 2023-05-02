@@ -83,9 +83,9 @@ def split_test_train_image(
     train_dir = '/path/to/train_data_set',
     val_dir = '/path/to/test_data_set',
     train_pct = 0.8):
-  """
-  Function can split the image data into test and train data set in given ratio
-  """
+    """
+    Function can split the image data into test and train data set in given ratio
+    """
     import os
     import shutil
     import random
