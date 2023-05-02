@@ -125,6 +125,7 @@ def pred_and_plot(model, filename, class_names):
   Imports an image located at filename, makes a prediction on it with
   a trained model and plots the image with the predicted class as the title.
   """
+  import matplotlib.pyplot as plt
   # Import the target image and preprocess it
   img = load_and_prep_image(filename)
 
