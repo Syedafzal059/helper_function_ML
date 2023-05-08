@@ -169,5 +169,5 @@ def load_and_prep_image(filename, img_shape=256, scale=True):
     return img
   
 
-
-  print("Updated by Afzal ")
+print("This Is for new branc h")
+print("Updated by Afzal ")
