@@ -167,3 +167,7 @@ def load_and_prep_image(filename, img_shape=256, scale=True):
     return img/255.
   else:
     return img
+  
+
+
+  print("Updated by Afzal ")
