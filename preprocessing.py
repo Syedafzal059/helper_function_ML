@@ -22,6 +22,8 @@ def augmentation_img(input_dir="path\input",
     num_of_copies=4):
   
     """
+    This function can generate multiple Augmented copy of thr input images
+    @param 
     input_dir: path of input folder, 
     output_dir: path of output(augmnted) folder, 
     rotation_range=20,
